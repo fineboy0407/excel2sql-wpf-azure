@@ -1,0 +1,21 @@
+﻿<Window x:Class="ExcelToDatabase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExcelToDatabase"
+        mc:Ignorable="d"
+        Title="Excel to MySQL DB in Azure" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Upwork" FontSize="32" Foreground="LightGreen"/>
+            <TextBlock Text="Read excel file, convert it to table, and save as a table in MySQL in azure" FontSize="18"/>
+            <Border Padding="0.8" Background="LightGreen" Margin="3"/>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <Button Content="Source Code" Style="{StaticResource BaseButtonStyle}" Click="OpenSourceCodeWindow"/>
+            </StackPanel>
+            <Border Padding="0.4" Background="LightGreen" Margin="3"/>
+            <TextBlock Text="ROMAN MATVIIENKO (C#, WPF Developer)" HorizontalAlignment="Center" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
